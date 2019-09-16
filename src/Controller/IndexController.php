@@ -6,10 +6,9 @@ use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Doctrine\DBAL\Driver\Connection;
 use Doctrine\ORM\EntityManagerInterface;
-class IndexController extends AbstractController
-{
-@@ -23,6 +27,32 @@ class IndexController extends AbstractController
-     */
+
+class IndexController extends AbstractController {
+
     public function index()
     {
         return $this->render('main.html.twig');
